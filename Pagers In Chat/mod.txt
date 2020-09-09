@@ -6,7 +6,7 @@
 	"image" : "icon.png",
 	"color" : "0.15 0.15 0.15",
 	"contact" : "",
-	"version" : "1",
+	"version" : "1.0.1",
 	"hooks" : [
 		{
 			"hook_id" : "lib/managers/menumanager",
