@@ -6,19 +6,15 @@
 	"image" : "icon.png",
 	"color" : "0.15 0.15 0.15",
 	"contact" : "",
-	"version" : "1.0.1",
+	"version" : "1.0.3",
 	"hooks" : [
 		{
 			"hook_id" : "lib/managers/menumanager",
 			"script_path" : "menumanager.lua"
 		},
 		{
-			"hook_id" : "lib/units/interactions/interactionext",
-			"script_path" : "interactionext.lua"
-		},
-		{
-			"hook_id" : "lib/network/handlers/unitnetworkhandler",
-			"script_path" : "unitnetworkhandler.lua"
+			"hook_id" : "lib/managers/group_ai_states/groupaistatebase",
+			"script_path" : "groupaistatebase.lua"
 		}
 	]
 }
